@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h1{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+h1{
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    text-align: center;
+    width: fit-content;
+    display:inline-block;
+}
+h2{
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: darkgray;
+}
+
+.recipes-list li{
+    list-style: none;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+img{
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 8%;
+}
+
+.presentation{
+    background-color: lightgray;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+.main-page{
+    margin-top: 40px;
+    font-size: larger;
+    background-color: lightgray;
+    width: 200px;
+    text-align: center;
+}
